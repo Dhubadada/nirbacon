@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ত্রয়োদশ জাতীয় সংসদ নির্বাচন ২০২৬ | জনগণের প্ল্যাটফর্ম</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #fcfdfd;
+        }
+        .bg-bd-green { background-color: #006a4e; }
+        .text-bd-green { color: #006a4e; }
+        .text-bd-red { color: #f42a41; }
+        .border-bd-red { border-color: #f42a41; }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(0, 106, 78, 0.05), transparent),
+                        radial-gradient(circle at bottom left, rgba(244, 42, 65, 0.05), transparent);
+        }
+        .map-shadow {
+            filter: drop-shadow(0 20px 30px rgba(0, 106, 78, 0.15));
+        }
+        .nav-blur {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="text-slate-900 leading-relaxed">
+
+    <!-- Navigation -->
+    <nav class="nav-blur sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center group cursor-pointer">
+                    <div class="w-10 h-10 bg-bd-green rounded-full flex items-center justify-center mr-3 shadow-lg group-hover:rotate-12 transition-transform">
+                        <span class="text-white font-bold text-xl">১৩</span>
+                    </div>
+                    <span class="text-2xl font-extrabold tracking-tight text-bd-green">জাতীয়<span class="text-bd-red">নির্বাচন</span></span>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-10">
+                    <a href="#" class="text-bd-green font-semibold border-b-2 border-bd-green pb-1">হোম</a>
+                    <a href="#leaderboard" class="text-gray-600 hover:text-bd-green font-medium transition">লিডারবোর্ড</a>
+                    <a href="#about" class="text-gray-600 hover:text-bd-green font-medium transition">সম্পর্কে</a>
+                    <a href="#contact" class="bg-bd-green text-white px-6 py-2.5 rounded-full hover:bg-opacity-90 transition shadow-md">যোগাযোগ</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="p-2 text-gray-600">
+                        <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative hero-gradient overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-32">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2 text-center lg:text-left z-10">
+                    <div class="inline-flex items-center space-x-2 bg-white border border-gray-200 px-4 py-2 rounded-full shadow-sm mb-8 animate-bounce">
+                        <span class="relative flex h-3 w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                        </span>
+                        <span class="text-sm font-bold text-gray-700 uppercase tracking-wider">মিশন ২০২৬</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-black text-slate-900 leading-[1.1] mb-6">
+                        রাষ্ট্রের মালিক <span class="text-bd-green">জনগণ</span> <br>
+                        <span class="relative inline-block">
+                            তারাই করবে নির্বাচন
+                            <svg class="absolute -bottom-2 left-0 w-full" viewBox="0 0 350 12" fill="none"><path d="M3.5 9c50-5.3 100-7.3 150-7.3 50 0 100 2 150 7.3" stroke="#f42a41" stroke-width="4" stroke-linecap="round"/></svg>
+                        </span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                        আসন্ন নির্বাচনে যোগ্য প্রার্থী বাছাই করতে আধুনিক ডেটা বিশ্লেষণ এবং জনগণের রেটিং সিস্টেম। আপনার ভোট, আপনার শক্তি। সঠিক প্রার্থী বেছে নিন।
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-5">
+                        <a href="#leaderboard" class="bg-bd-green text-white px-10 py-4 rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all font-bold text-lg flex items-center justify-center">
+                            প্রার্থী খুঁজুন 
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-width="3"/></svg>
+                        </a>
+                        <a href="#" class="bg-white border-2 border-gray-200 text-gray-700 px-10 py-4 rounded-xl font-bold text-lg hover:border-bd-red hover:text-bd-red transition-all flex items-center justify-center">
+                            নির্দেশিকা দেখুন
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Increased Map Image Container -->
+                <div class="w-full lg:w-1/2 flex justify-center relative">
+                    <div class="absolute inset-0 bg-bd-green opacity-5 blur-[120px] rounded-full"></div>
+                    <img src="map.png" 
+                         alt="Bangladesh Map" 
+                         class="w-full max-w-[650px] map-shadow transform hover:scale-105 transition-transform duration-700 ease-in-out z-10">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats/Goal Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-900 mb-4 tracking-tight">আমাদের প্ল্যাটফর্মের <span class="text-bd-green border-b-4 border-bd-red">মূল লক্ষ্য</span></h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">আমরা তথ্যের স্বচ্ছতা নিশ্চিত করতে কাজ করছি যাতে প্রতিটি নাগরিক সচেতনভাবে সিদ্ধান্ত নিতে পারেন।</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-10 rounded-3xl bg-gray-50 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center text-bd-green mb-6 group-hover:bg-bd-green group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.040M12 10v4m0 4h.01"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">স্বচ্ছতা</h3>
+                    <p class="text-gray-600">প্রার্থীদের অতীত কর্মকাণ্ড এবং রাজনৈতিক স্বচ্ছতা জনগণের সামনে তুলে ধরা আমাদের প্রধান কাজ।</p>
+                </div>
+
+                <div class="p-10 rounded-3xl bg-gray-50 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">নিরপেক্ষ রেটিং</h3>
+                    <p class="text-gray-600">সম্পূর্ণ নিরপেক্ষ ডেটা বিশ্লেষণের মাধ্যমে রিয়েল-টাইম লিডারবোর্ড আপডেট করা হয়।</p>
+                </div>
+
+                <div class="p-10 rounded-3xl bg-gray-50 border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-red-100 rounded-2xl flex items-center justify-center text-bd-red mb-6 group-hover:bg-bd-red group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">জনগণের প্ল্যাটফর্ম</h3>
+                    <p class="text-gray-600">এটি কোনো রাজনৈতিক দলের নয়, এটি সরাসরি জনগণের দ্বারা পরিচালিত একটি তথ্যভাণ্ডার।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section id="leaderboard" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div>
+                    <span class="inline-block text-bd-red font-bold text-sm tracking-widest uppercase mb-2">Real-time Ranking</span>
+                    <h2 class="text-5xl font-extrabold text-slate-900 leading-tight">প্রার্থী <span class="text-bd-green">লিডারবোর্ড</span></h2>
+                </div>
+                <div class="bg-white p-2 rounded-2xl shadow-sm border border-gray-100 flex gap-2">
+                    <button class="bg-bd-green text-white px-6 py-2 rounded-xl font-medium">জনপ্রিয়তা</button>
+                    <button class="text-gray-500 px-6 py-2 rounded-xl font-medium hover:bg-gray-50 transition">যোগ্যতা</button>
+                </div>
+            </div>
+
+            <!-- Filters Grid -->
+            <div class="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 mb-12">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="space-y-2">
+                        <label class="text-sm font-bold text-gray-500 ml-1">বিভাগ</label>
+                        <select class="w-full bg-gray-50 border-none ring-1 ring-gray-200 rounded-xl p-4 focus:ring-2 focus:ring-bd-green transition appearance-none">
+                            <option>চট্টগ্রাম বিভাগ</option>
+                            <option>ঢাকা বিভাগ</option>
+                        </select>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-bold text-gray-500 ml-1">জেলা</label>
+                        <select class="w-full bg-gray-50 border-none ring-1 ring-gray-200 rounded-xl p-4 focus:ring-2 focus:ring-bd-green transition">
+                            <option>চট্টগ্রাম</option>
+                        </select>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-bold text-gray-500 ml-1">আসন</label>
+                        <select class="w-full bg-gray-50 border-none ring-1 ring-gray-200 rounded-xl p-4 focus:ring-2 focus:ring-bd-green transition">
+                            <option>রাউজান - ৬</option>
+                        </select>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-bold text-gray-500 ml-1">রাজনৈতিক দল</label>
+                        <select class="w-full bg-gray-50 border-none ring-1 ring-gray-200 rounded-xl p-4 focus:ring-2 focus:ring-bd-green transition">
+                            <option>সকল দল</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table/List Placeholder -->
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100">
+                <div class="p-20 text-center">
+                    <div class="mb-4 inline-block p-4 bg-emerald-50 rounded-full">
+                        <svg class="w-12 h-12 text-bd-green mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">তথ্য লোড হচ্ছে...</h3>
+                    <p class="text-gray-500">আপনার এলাকার প্রার্থীদের তালিকা দেখতে ফিল্টার সম্পন্ন করুন।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                <div>
+                    <h2 class="text-5xl font-black text-slate-900 mb-8 leading-tight">আপনার গুরুত্বপূর্ণ <br><span class="text-bd-red">মতামত জানান</span></h2>
+                    <p class="text-lg text-gray-600 mb-12">আমরা প্রতিটি মেসেজ গুরুত্বের সাথে দেখি। আপনার পরামর্শ আমাদের প্ল্যাটফর্মকে আরও উন্নত করতে সাহায্য করবে।</p>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-center p-6 bg-gray-50 rounded-2xl group hover:bg-bd-green transition-all duration-300">
+                            <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mr-4 group-hover:scale-110 transition">
+                                <svg class="w-6 h-6 text-bd-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-gray-400 uppercase tracking-tighter group-hover:text-emerald-100">ইমেইল করুন</h4>
+                                <p class="text-lg font-bold text-slate-800 group-hover:text-white transition">2002dhruba@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-6 bg-gray-50 rounded-2xl group hover:bg-bd-red transition-all duration-300">
+                            <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mr-4 group-hover:scale-110 transition">
+                                <svg class="w-6 h-6 text-bd-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-gray-400 uppercase tracking-tighter group-hover:text-red-100">ঠিকানা</h4>
+                                <p class="text-lg font-bold text-slate-800 group-hover:text-white transition">রাউজান, চট্টগ্রাম, বাংলাদেশ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-10 rounded-[40px] shadow-2xl border border-gray-100">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-sm font-bold text-gray-600">আপনার নাম</label>
+                                <input type="text" class="w-full bg-slate-50 border-none ring-1 ring-gray-200 rounded-2xl p-4 focus:ring-2 focus:ring-bd-green outline-none" placeholder="উদা: আব্দুল করিম">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-sm font-bold text-gray-600">ইমেইল এড্রেস</label>
+                                <input type="email" class="w-full bg-slate-50 border-none ring-1 ring-gray-200 rounded-2xl p-4 focus:ring-2 focus:ring-bd-green outline-none" placeholder="karim@email.com">
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-bold text-gray-600">বার্তার বিষয়</label>
+                            <input type="text" class="w-full bg-slate-50 border-none ring-1 ring-gray-200 rounded-2xl p-4 focus:ring-2 focus:ring-bd-green outline-none" placeholder="কি বিষয়ে লিখতে চান?">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-bold text-gray-600">বিস্তারিত লিখুন</label>
+                            <textarea rows="5" class="w-full bg-slate-50 border-none ring-1 ring-gray-200 rounded-2xl p-4 focus:ring-2 focus:ring-bd-green outline-none" placeholder="আপনার মেসেজ এখানে লিখুন..."></textarea>
+                        </div>
+                        <button class="w-full bg-bd-green text-white font-bold py-5 rounded-2xl shadow-lg hover:shadow-bd-green/30 hover:-translate-y-1 transition-all text-lg">
+                            মেসেজ পাঠান
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12 gap-8">
+                <div class="flex items-center">
+                    <div class="w-8 h-8 bg-bd-green rounded flex items-center justify-center mr-3 font-bold">১৩</div>
+                    <span class="text-2xl font-bold tracking-tight">জাতীয়<span class="text-bd-red">নির্বাচন</span></span>
+                </div>
+                <div class="flex space-x-8 text-gray-400">
+                    <a href="#" class="hover:text-white transition">ফেসবুক</a>
+                    <a href="#" class="hover:text-white transition">টুইটার</a>
+                    <a href="#" class="hover:text-white transition">লিঙ্কডইন</a>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                <p>&copy; ২০২৬ ত্রয়োদশ জাতীয় সংসদ নির্বাচন প্ল্যাটফর্ম। সর্বস্বত্ব সংরক্ষিত।</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition">প্রাইভেসি পলিসি</a>
+                    <a href="#" class="hover:text-white transition">ব্যবহারের শর্তাবলী</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
